@@ -59,7 +59,7 @@ a {
     color: #feb386;
 }
 
-ul(max-width: 550px){
+ul{
     .menu-main {
         padding-top: 0;
 }
