@@ -66,7 +66,7 @@ ul(max-width: 550px){
 .menu-main li {
     display: block;
 }
-.menu-main li:after {
+.menu-main li::after {
     content: none;
 }
 .menu-main a {
