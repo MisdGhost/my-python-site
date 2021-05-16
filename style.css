@@ -1,16 +1,16 @@
 html {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 main {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     height: 1800px;
     background-color: #2B5B84;
 }
@@ -30,8 +30,8 @@ a {
 
 .menu-main {
     list-style: none;
-    margin: 0;
-    padding: 30px 0 30px;
+    margin: 0px;
+    padding: 30px 0px 30px;
     text-align: center;
     background-color: #1E2933;
     position: relative;
@@ -46,7 +46,7 @@ a {
     letter-spacing: 2px;
     position: relative;
     padding-bottom: 20px;
-    margin: 0 30px 0 30px;
+    margin: 0px 30px 0px 30px;
     font-size: 17px;
     text-transform: uppercase;
     display: inline-block;
@@ -61,13 +61,13 @@ a {
 
 ul{
     .menu-main {
-        padding-top: 0;
+        padding-top: 0px;
 }
 .menu-main li {
     display: block;
 }
 .menu-main a {
-    padding: 15px 0 10px; 
+    padding: 15px 0px 10px; 
     margin: 30px 10px 30px;
   }
 }
@@ -83,7 +83,7 @@ ul{
 /* main-inform */
 
 .main-border {
-    padding: 20px 0 0 0;
+    padding: 20px 0px 0px 0px;
 }
 
 .main-border p{
@@ -104,7 +104,8 @@ section {
 section p {
     color: #000000;
     font-size: 24px;
-    margin: 25px 0 20px 0;
+    margin: 25px 0px 20px 0px;
+
     text-align: center;
 }
 
@@ -136,7 +137,7 @@ section p {
 }
 
 .main-information-right p {
-    color: #FFFFFF;
+    color:  #FFFFFF;
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 22px;
 }
@@ -148,12 +149,12 @@ section p {
 }
 
 .main-information-bottom p {
-    color: #000000;
+    color:  #000000;
     text-align: center;
     font-size: 22px;
     text-decoration: none;
-    margin: 28px 0 20px 0;
-    padding: 10px 0 10px;
+    margin: 28px 0px 20px 0px;
+    padding: 10px 0px 10px;
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
