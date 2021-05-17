@@ -11,7 +11,7 @@ body {
 main {
     margin: 0;
     padding: 0;
-    height: 2000px;
+    height: 1800px;
     background-color: #2B5B84;
 }
 
@@ -161,6 +161,7 @@ section p {
 .blok_1{
     width: 225px;
     height: 330px;
+    left: 200px;
     background: #C4C4C4;
     font-style: normal;
     font-weight: normal;
@@ -171,7 +172,7 @@ section p {
     border-top: 10px solid rgb(34, 69, 100);
     display:inline-block;
     justify-content: space-around;
-    margin: 100px auto 100px auto;
+    margin: 50px auto 50px auto;
 }
 
 .blok_1 p{
@@ -219,7 +220,7 @@ footer {
     height: 50px;
     width: 50px;
     position: absolute;
-    top: 1800px;
+    top: 1750px;
     left: 700px;
 }
 .social-vk{
@@ -227,7 +228,7 @@ footer {
     height: 50px;
     width: 50px;
     position: absolute;
-    top: 1800px;
+    top: 1750px;
     left: 600px;
 }
 .social-discord{
@@ -235,6 +236,6 @@ footer {
     height: 60px;
     width: 60px;
     position: absolute;
-    top: 1800px;
+    top: 1750px;
     left: 800px;
 }
