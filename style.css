@@ -158,6 +158,7 @@ section p {
 }
 
 .blok_1{
+    top: 900px;
     width: 225px;
     height: 330px;
     background: #C4C4C4;
@@ -188,10 +189,9 @@ section p {
     height: 340px;
     left: 537px;
     top: -370px;
-    font-family: Signika SC;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 20px;
     text-align: center;
     color: #FFFFFF;
