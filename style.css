@@ -159,21 +159,82 @@ section p {
 }
 
 .blok_1{
-    position: relative;
     width: 225px;
     height: 330px;
-    left: 133px;
-    top: 500px; 
     background: #C4C4C4;
-    font-family: Signika SC;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
     padding: 9px 15px 31px 14px;
-    float: left;
-    display: flex;
-    justify-content: space-around;
     border-top: 10px solid rgb(34, 69, 100);
+    display:inline-block;
+    justify-content: space-around;
+    margin: 100px auto 100px auto;
+}
+
+.blok_1 p{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.video1{
+    position: absolute;
+    width: 1150px;
+    height: 400px;
+    left: 190px;
+    top: 1300px;
+    background: #7080D7;
+}
+
+.video1 p{
+    position: relative;
+    width: 594px;
+    height: 340px;
+    left: 570px;
+    top: -370px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+footer {
+    background-color: #1E2933;
+}
+
+.footer_p1{
+    position: absolute;
+    top: 1700px;
+    font-size: 30px;
+    left: 500px;
+    color: #FFE040;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.social-twitter{
+    content: url("https://upload.wikimedia.org/wikipedia/ru/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png");
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 1800px;
+    left: 700px;
+}
+.social-vk{
+    content: url("https://pngicon.ru/file/uploads/vk-256x256.png");
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 1800px;
+    left: 600px;
+}
+.social-discord{
+    content: url("https://img.icons8.com/color/452/discord-new-logo.png");
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 1800px;
+    left: 800px;
 }
