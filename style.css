@@ -11,7 +11,7 @@ body {
 main {
     margin: 0;
     padding: 0;
-    height: 2000px;
+    height: 1800px;
     background-color: #2B5B84;
 }
 
@@ -92,7 +92,7 @@ a {
 /* Цитата start */
 section {
     position: relative;
-    left: 200px;
+    left: 100px;
     border: 5px solid #0e65ac;
     border-radius: 20px;
     background-image: linear-gradient(#2B5B84, #3C688E);
@@ -105,7 +105,6 @@ section p {
     color: #000000;
     font-size: 24px;
     margin: 25px 0 20px 0;
-    font-family: Signika SC;
     text-align: center;
 }
 
@@ -115,7 +114,7 @@ section p {
     position: relative;
     width: 1060px;
     height: 500px;
-    left: 250px;
+    left: 100px;
     background-color: #2B5B84;
     color: white;
     margin-top: 20px;
@@ -162,10 +161,9 @@ section p {
     position: relative;
     width: 225px;
     height: 330px;
-    left: 133px;
+    left: 150px;
     top: 500px; 
     background: #C4C4C4;
-    font-family: Signika SC;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -173,7 +171,7 @@ section p {
     text-align: center;
     padding: 9px 15px 31px 14px;
     float: left;
-    display: flex;
+    display: inline-block;
     justify-content: space-around;
     border-top: 10px solid rgb(34, 69, 100);
 }
@@ -221,7 +219,7 @@ footer {
     height: 50px;
     width: 50px;
     position: absolute;
-    top: 1720px;
+    top: 1750px;
     left: 700px;
 }
 .social-vk{
@@ -229,7 +227,7 @@ footer {
     height: 50px;
     width: 50px;
     position: absolute;
-    top: 1720px;
+    top: 1750px;
     left: 600px;
 }
 .social-discord{
@@ -237,6 +235,6 @@ footer {
     height: 60px;
     width: 60px;
     position: absolute;
-    top: 1720px;
+    top: 1750px;
     left: 800px;
 }
