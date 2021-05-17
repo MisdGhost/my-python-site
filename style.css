@@ -11,7 +11,7 @@ body {
 main {
     margin: 0;
     padding: 0;
-    height: 1800px;
+    height: 2000px;
     background-color: #2B5B84;
 }
 
@@ -159,31 +159,32 @@ section p {
 }
 
 .blok_1{
+    position: relative;
     width: 225px;
     height: 330px;
-    left: 200px;
+    left: 133px;
+    top: 500px; 
     background: #C4C4C4;
+    font-family: Signika SC;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
     padding: 9px 15px 31px 14px;
-    border-top: 10px solid rgb(34, 69, 100);
-    display:inline-block;
+    float: left;
+    display: flex;
     justify-content: space-around;
-    margin: 50px auto 50px auto;
+    border-top: 10px solid rgb(34, 69, 100);
 }
 
-.blok_1 p{
-    font-family: 'Ubuntu Condensed', sans-serif;
-}
+/* fotter */
 .video1{
     position: absolute;
     width: 1150px;
     height: 400px;
-    left: 190px;
-    top: 1300px;
+    left: 133px;
+    top: 1200px;
     background: #7080D7;
 }
 
@@ -193,15 +194,16 @@ section p {
     height: 340px;
     left: 570px;
     top: -370px;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: Signika SC;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 20px;
     text-align: center;
     color: #FFFFFF;
-    font-family: 'Ubuntu Condensed', sans-serif;
-}
+} */
+
+/* fotter */
 
 footer {
     background-color: #1E2933;
@@ -209,18 +211,17 @@ footer {
 
 .footer_p1{
     position: absolute;
-    top: 1700px;
+    top: 1650px;
     font-size: 30px;
     left: 500px;
     color: #FFE040;
-    font-family: 'Ubuntu Condensed', sans-serif;
 }
 .social-twitter{
     content: url("https://upload.wikimedia.org/wikipedia/ru/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png");
     height: 50px;
     width: 50px;
     position: absolute;
-    top: 1750px;
+    top: 1720px;
     left: 700px;
 }
 .social-vk{
@@ -228,7 +229,7 @@ footer {
     height: 50px;
     width: 50px;
     position: absolute;
-    top: 1750px;
+    top: 1720px;
     left: 600px;
 }
 .social-discord{
@@ -236,6 +237,6 @@ footer {
     height: 60px;
     width: 60px;
     position: absolute;
-    top: 1750px;
+    top: 1720px;
     left: 800px;
 }
