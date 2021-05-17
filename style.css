@@ -98,7 +98,7 @@ section {
     background-image: linear-gradient(#2B5B84, #3C688E);
     width: 1050px;
     height: 80px;
-    left: 250px;
+    left: 150px;
 }
 
 section p {
@@ -114,7 +114,7 @@ section p {
     position: relative;
     width: 1060px;
     height: 500px;
-    left: 100px;
+    left: 150px;
     background-color: #2B5B84;
     color: white;
     margin-top: 20px;
@@ -158,11 +158,8 @@ section p {
 }
 
 .blok_1{
-    position: relative;
     width: 225px;
     height: 330px;
-    left: 150px;
-    top: 500px; 
     background: #C4C4C4;
     font-style: normal;
     font-weight: normal;
@@ -170,18 +167,17 @@ section p {
     line-height: 30px;
     text-align: center;
     padding: 9px 15px 31px 14px;
-    float: left;
-    display: inline-block;
-    justify-content: space-around;
     border-top: 10px solid rgb(34, 69, 100);
+    display:inline-block;
+    justify-content: space-around;
+    margin: 100px auto 100px auto;
 }
-
 /* fotter */
 .video1{
     position: absolute;
     width: 1150px;
     height: 400px;
-    left: 133px;
+    left: 100px;
     top: 1200px;
     background: #7080D7;
 }
@@ -190,7 +186,7 @@ section p {
     position: relative;
     width: 594px;
     height: 340px;
-    left: 570px;
+    left: 537px;
     top: -370px;
     font-family: Signika SC;
     font-style: normal;
