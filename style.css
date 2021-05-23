@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-color: #1E2933;
+    background-color: #2B5B84;
     margin: 0;
     padding: 0;
 }
@@ -178,7 +178,6 @@ section p {
 }
 
 .content {
-    
     position: relative;
     left: 170px;
     width: 1200px;
@@ -224,12 +223,16 @@ section p {
 
 /* footer */
 
+
 footer {
+    position: relative;
+    top: 4000px;
     background-color: #1E2933;
-    height: 150px;
+    height: 200px;
 }
 
 .footer_p1{
+    position: relative;
     text-align: center;
     font-size: 30px;
     color: #FFE040;
@@ -239,23 +242,67 @@ footer {
     content: url("https://upload.wikimedia.org/wikipedia/ru/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png");
     height: 50px;
     width: 50px;
-    position: absolute;
-    top: 1800px;
-    left: 930px;
+    position: relative;
+    top: 20px;
+    left: 830px;
 }
 .social-vk{
     content: url("https://pngicon.ru/file/uploads/vk-256x256.png");
     height: 50px;
     width: 50px;
-    position: absolute;
-    top: 1800px;
-    left: 830px;
+    position: relative;
+    top: 20px;
+    left: 930px;
 }
 .social-discord{
     content: url("https://img.icons8.com/color/452/discord-new-logo.png");
     height: 60px;
     width: 60px;
-    position: absolute;
-    top: 1800px;
+    position: relative;
+    top: 20px;
     left: 1030px;
+}
+
+.sortirovki{
+    position: relative;
+    top: 50px;
+}
+.sortirovki h1{
+    position: relative;
+    text-align: center;
+    color: #FFE040;
+    font-size: 80px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.sortirovki p{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    border: 5px solid #0e65ac;
+    border-radius: 20px;
+    background-image: linear-gradient(#2B5B84, #3C688E);
+    width: 1050px;
+    height: auto;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 10px 0px 10px 0px;
+    left: 200px;
+}
+
+.sortirovki img{
+    position: relative;
+    width: 600px;
+    height: auto;
+    left: 400px;
+    margin: 10px 0px 10px 0px;
+    border: 5px solid #0e65ac;
+    border-radius: 20px;
+}
+
+.line{
+    top: 50px;
+    position: relative;
+    width: auto;
+    height: 10px;
+    background-image: linear-gradient(#2B5B84, #3C688E);
 }
