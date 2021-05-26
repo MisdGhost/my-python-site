@@ -114,7 +114,7 @@ footer {
     width: 50px;
     position: relative;
     top: 20px;
-    left: 700px;
+    left: 750px;
 }
 .social-vk{
     content: url("https://pngicon.ru/file/uploads/vk-256x256.png");
@@ -122,7 +122,7 @@ footer {
     width: 50px;
     position: relative;
     top: 20px;
-    left: 800px;
+    left: 850px;
 }
 .social-discord{
     content: url("https://img.icons8.com/color/452/discord-new-logo.png");
@@ -130,7 +130,7 @@ footer {
     width: 60px;
     position: relative;
     top: 20px;
-    left: 900px;
+    left: 950px;
 }
 
 .sortirovki{
@@ -156,7 +156,7 @@ footer {
     height: auto;
     font-family: 'Ubuntu Condensed', sans-serif;
     margin: 10px 0px 10px 0px;
-    left: 700px;
+    left: 475px;
     color: #9d999d
 }
 
@@ -164,7 +164,7 @@ footer {
     position: relative;
     width: 600px;
     height: auto;
-    left: 900px;
+    left: 625px;
     margin: 10px 0px 10px 0px;
     border: 5px solid #0e65ac;
     border-radius: 20px;
