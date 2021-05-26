@@ -90,136 +90,6 @@ a {
 }
 
 /* Цитата start */
-section {
-    position: relative;
-    left: 200px;
-    border: 5px solid #0e65ac;
-    border-radius: 20px;
-    background-image: linear-gradient(#2B5B84, #3C688E);
-    width: 1050px;
-    height: 80px;
-    left: 250px;
-}
-
-section p {
-    color: #000000;
-    font-size: 24px;
-    margin: 25px 0 20px 0;
-    font-family: Signika SC;
-    text-align: center;
-}
-
-/* Цитата end */
-
-.main-information {
-    position: relative;
-    width: 1060px;
-    height: 500px;
-    left: 250px;
-    background-color: #2B5B84;
-    color: white;
-    margin-top: 20px;
-}
-
-.main-information-img {
-    float: left;
-}
-
-.main-information-right {
-    float: right;
-    width: 560px;
-    height: 400px;
-    background-color: #17354F;
-    text-align: center;
-    font-size: 24;
-}
-
-.main-information-right p {
-    color: white;
-}
-
-.main-information-right span {
-    color: #FFDE56;
-    font-size: 36;
-}
-
-.main-information-bottom p {
-    color: black;
-    text-align: center;
-    font-size: 22;
-    text-decoration: none;
-    margin: 28px 0 20px 0;
-    padding: 10px 0 10px;
-}
-
-.main-information-bottom a {
-    text-decoration: none;
-    font-size: 22;
-    color: #FFDE56;
-}
-
-.font_img-1 a{
-    color: #FFE040;
-}
-.font_img-1 h2{
-    text-align: center;
-    color: #FFE040;
-}
-.img-1{
-    
-    width: 530px;
-    height: 300px;
-    left: 30px;
-    top: 200px;
-}
-.img-1 img{
-    width: 530px;
-    height: 350px;
-}
-
-.content {
-    position: relative;
-    left: 170px;
-    width: 1200px;
-    padding: 30px;
-}
-
-.blok_1{
-    background-color: #C4C4C4;
-    display: inline-block;
-    justify-content: space-around;
-    text-align: center;
-    border-top: 10px solid rgb(34, 69, 100);
-    font-size: 20px;
-    margin: 0 20px 0 20px;
-    padding: 10px;
-    height: 330px;
-    width: 225px;
-}
-.video1{
-    position: absolute;
-    width: 1150px;
-    height: 400px;
-    left: 200px;
-    /* left: 133px; */
-    top: 1200px;
-    background: #7080D7;
-}
-
-.video1 p{
-    position: relative;
-    width: 594px;
-    height: 340px;
-    left: 570px;
-    top: -370px;
-    font-family: Signika SC;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    color: #FFFFFF;
-}
 
 /* footer */
 
@@ -244,7 +114,7 @@ footer {
     width: 50px;
     position: relative;
     top: 20px;
-    left: 830px;
+    left: 730px;
 }
 .social-vk{
     content: url("https://pngicon.ru/file/uploads/vk-256x256.png");
@@ -252,7 +122,7 @@ footer {
     width: 50px;
     position: relative;
     top: 20px;
-    left: 930px;
+    left: 830px;
 }
 .social-discord{
     content: url("https://img.icons8.com/color/452/discord-new-logo.png");
@@ -260,7 +130,7 @@ footer {
     width: 60px;
     position: relative;
     top: 20px;
-    left: 1030px;
+    left: 930px;
 }
 
 .sortirovki{
@@ -286,21 +156,22 @@ footer {
     height: auto;
     font-family: 'Ubuntu Condensed', sans-serif;
     margin: 10px 0px 10px 0px;
-    left: 200px;
+    left: 300px;
+    color: #9d999d
 }
 
 .sortirovki img{
     position: relative;
     width: 600px;
     height: auto;
-    left: 400px;
+    left: 500px;
     margin: 10px 0px 10px 0px;
     border: 5px solid #0e65ac;
     border-radius: 20px;
 }
 
 .line{
-    top: 50px;
+    top: 30px;
     position: relative;
     width: auto;
     height: 10px;
