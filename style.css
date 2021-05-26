@@ -4,16 +4,15 @@ html {
 }
 
 body {
-    /* background-color: #1E2933; */
+    background-color: #1E2933;
     margin: 0;
     padding: 0;
-    background-color: #2B5B84;
 }
 
 main {
-    margin: 20px 0 0 0;
+    margin: 0;
     padding: 0;
-    /* height: 3000px; */
+    height: 1600px;
     background-color: #2B5B84;
 }
 
@@ -82,43 +81,148 @@ a {
     }
 }
 
+/* Конец начало горизонтального меню Роман */
 
-/* Aleksandr review */
+/* main-inform */
 
-.main-inform {
-    padding: 10px;
-    top: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    border-radius: 34px;
-    background-color: #2B5B84;
-    
-    width: 1420px;
-    
+.main-border {
+    padding: 20px 0 0 0;
+}
+
+/* Цитата start */
+section {
+    position: relative;
+    left: 200px;
+    border: 5px solid #0e65ac;
+    border-radius: 20px;
+    background-image: linear-gradient(#2B5B84, #3C688E);
+    width: 1050px;
+    height: 80px;
     left: 250px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+}
+
+section p {
+    color: #000000;
+    font-size: 24px;
+    margin: 25px 0 20px 0;
+    font-family: Signika SC;
+    text-align: center;
+}
+
+/* Цитата end */
+
+.main-information {
+    position: relative;
+    width: 1060px;
+    height: 500px;
+    left: 250px;
+    background-color: #2B5B84;
     color: white;
-    text-align: center;
+    margin-top: 20px;
 }
 
-.inform-1-left {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1000px;
-    height: 630px;
-    text-align: center;
-    border-bottom: 5px solid white;
-    
+.main-information-img {
+    float: left;
 }
 
-.inform-1-right {
+.main-information-right {
     float: right;
-    height: 330px;
+    width: 560px;
+    height: 400px;
+    background-color: #17354F;
+    text-align: center;
+    font-size: 24;
 }
 
+.main-information-right p {
+    color: white;
+}
 
+.main-information-right span {
+    color: #FFDE56;
+    font-size: 36;
+}
+
+.main-information-bottom p {
+    color: black;
+    text-align: center;
+    font-size: 22;
+    text-decoration: none;
+    margin: 28px 0 20px 0;
+    padding: 10px 0 10px;
+}
+
+.main-information-bottom a {
+    text-decoration: none;
+    font-size: 22;
+    color: #FFDE56;
+}
+
+.font_img-1 a{
+    color: #FFE040;
+}
+.font_img-1 h2{
+    text-align: center;
+    color: #FFE040;
+}
+.img-1{
+    
+    width: 530px;
+    height: 300px;
+    left: 30px;
+    top: 200px;
+}
+.img-1 img{
+    width: 530px;
+    height: 350px;
+}
+
+.content {
+    
+    position: relative;
+    left: 170px;
+    width: 1200px;
+    padding: 30px;
+}
+
+.blok_1{
+    background-color: #C4C4C4;
+    display: inline-block;
+    justify-content: space-around;
+    text-align: center;
+    border-top: 10px solid rgb(34, 69, 100);
+    font-size: 20px;
+    margin: 0 20px 0 20px;
+    padding: 10px;
+    height: 330px;
+    width: 225px;
+}
+.video1{
+    position: absolute;
+    width: 1150px;
+    height: 400px;
+    left: 200px;
+    /* left: 133px; */
+    top: 1200px;
+    background: #7080D7;
+}
+
+.video1 p{
+    position: relative;
+    width: 594px;
+    height: 340px;
+    left: 570px;
+    top: -370px;
+    font-family: Signika SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* footer */
 
 footer {
     background-color: #1E2933;
