@@ -177,3 +177,24 @@ footer {
     height: 10px;
     background-image: linear-gradient(#2B5B84, #3C688E);
 }
+
+.language{
+    top: -90px;
+    text-align: center;
+    width: 150px;
+    height: 70px;
+    position: relative;
+    left: 1300px;
+    background-color: #C4C4C4;
+    border: 5px solid rgb(34, 69, 100);
+    border-radius: 10px;
+}
+
+.language a{
+    color: rgb(34, 69, 100);
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.language p{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
